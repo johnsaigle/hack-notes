@@ -24,7 +24,7 @@ Base64
 PHP can be configured to store session files in e.g. `/tmp` that match the PHPSESSID,
 e.g. `/tmp/sess_4qv0tib1blj8be6vibc0rou2s7` if `PHPSESSID=4qv0tib1blj8be6vibc0rou2s7`
 
-This will log login attemtps in some cases.
+This will log login attempts in some cases.
 
 So if you POST 
 	username:`<?php phpinfo(); ?>`

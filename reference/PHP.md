@@ -1,6 +1,6 @@
 # PHP
-Tags: #injection #logs #lfi
-See also: [[local-file-inclusion]], [[shellshit#PHP reverse shell]]
+Tags: #injection #logs #lfi #php
+See also: [[local-file-inclusion]], [[shells#PHP reverse shell]]
 
 ## Truthy-Falsey
 Type Comparisions

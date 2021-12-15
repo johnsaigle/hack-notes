@@ -1,7 +1,7 @@
 # Docker 
 Tags: #docker #privesc #techniques #capsh #capabilities #nc #netcat 
 Author: cmnatic (TryHackMe), https://tryhackme.com/room/dockerrodeo
-Related to: [[linux-privesc]], [[shellshit]]
+Related to: [[linux-privesc]], [[shells]]
 
 ## Notes
 ### General
@@ -28,7 +28,7 @@ Look for `/.dockerenv`
 - Can make a simple docker image on a slim linux build
 - Get it to install e..g netcat
 - When run, create a reverse shell back to you
-- Ideas in [[shellshit]]
+- Ideas in [[shells]]
 
 #### Finding exposed port
 - Docker can be exposed to Internet for remote management
