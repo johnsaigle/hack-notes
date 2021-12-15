@@ -14,7 +14,6 @@ Link: https://www.sqlinjection.net/table-names/
 Description: More info into actually getting table info from schema tables. More in detail than the Portswigger cheatsheet
 
 ## Notes
-- Most use single-quotes (not double-quotes)
 - You don't need to SELECT FROM something (e.g. `SELECT 1`, `SELECT NULL,NULL`)
 - Swap out `--` for `#` sometimes. It may cause an error in some cases and not in others
 
