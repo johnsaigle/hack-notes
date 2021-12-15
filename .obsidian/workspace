@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "f105bfc26c58cba7",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ff6c12dbd253386",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "prototype-pollution.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bf3254cb3cbfbc6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e706f8c3c8ee7448",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8462ac9b1f2936e7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1255fe2369ce6324",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "server",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 289
+  },
+  "right": {
+    "id": "8496e45a1f6cd445",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4d1d0901149c761",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "454a0ece97ec5634",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "prototype-pollution.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6ff6c12dbd253386",
+  "lastOpenFiles": [
+    "prototype-pollution.md",
+    "bbrf.md",
+    "reference/web-application-firewall.md",
+    "_templates/_reference-note.md",
+    "fleeting/2021-11-13.md",
+    "images/thm-wwbuddy-php-log-inject.png",
+    "images/php-POPchain.png",
+    "reference/auth/OAuth.md",
+    "reference/log4shell.md",
+    "reference/xxe.md"
+  ]
+}
