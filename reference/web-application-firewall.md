@@ -2,8 +2,8 @@
 Tags: #bypass #xss #proxy #headers
 
 ## Links
-Bypass script to get around 403s
-- https://github.com/johnsaigle/byp4xx
+Description: Bypass script to get around 403s
+Link: https://github.com/johnsaigle/byp4xx
 
 ## Notes
 ### General Tactics

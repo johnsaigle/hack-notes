@@ -1,6 +1,6 @@
 # XML External Entities injection
 Tags: #xxe #injection #api
-Related to:
+Related to: [[saml]]
 See also:
 Previous:
 
@@ -9,13 +9,17 @@ Topic: XXE identification and exploit
 Author: h3xstream
 Link: https://blog.h3xstream.com/2014/06/identifying-xml-external-entity.html
 
-Topic: Bug Bounty Bootcamp
+Book Title: Bug Bounty Bootcamp
 Author: Vickie Li
-Description: A lot of the payload material is taken from there.
+Description: A lot of the payload material is taken from this book.
+
+Topic: Various XXE payloads
+Author: swisskeyrepo
+Link: https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection
 
 ## Notes
 ### Detection
-- Anything that looks XML based should be investigated (GPS in @h3xstream post)
+- Anything that looks XML based should be investigated (e.g. GPS in @h3xstream post)
 - Change `application/json` to `application/xml` in API requests.
 
 ```
@@ -66,6 +70,7 @@ Save as a .svg file.
   <text font-size="16" x="0" y="16">&test;</text>
 </svg>
 ```
+
 #### Office files
 You can unzip the following, identiy .xml files, and add payloads
 * docx

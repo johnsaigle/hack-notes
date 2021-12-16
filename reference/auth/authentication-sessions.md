@@ -1,4 +1,4 @@
-# Authentication/ Sessions
+# Authentication/Sessions
 Tag: #cryptography #cbc #outh #openid #api
 See also: #oauth 
 Previous: 
@@ -6,7 +6,7 @@ Related to
 
 
 ## JWT
-TODO
+[[jwt]]
 
 ## Cryptography
 Bypassing session tokens using bit-flipping in CBC modes

@@ -10,7 +10,7 @@ Link:
 About:
 
 ## Notes
-- Anytime you can modify a URL that is passed server-side
+- Anytime you can modify a URL that is sent to the server
 
 ### SSRF in APIs
 _example from Portswigger: https://portswigger.net/web-security/ssrf/lab-basic-ssrf-against-localhost_
