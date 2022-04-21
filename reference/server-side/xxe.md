@@ -31,6 +31,8 @@ Content-Type: application/xml
  > If you can upload one of these file types, you might be able to smuggle XML input to the application’s XML parser. XML can be written into document and image formats like XML, HTML, DOCX, PPTX, XLSX, GPX, PDF, SVG, and RSS feeds. Furthermore, metadata embedded within images like GIF, PNG, and JPEG files are all based on XML.
  
  ### Payloads
+- Rather than use `<example>`  below, replace with a typical tag the application is expecting. This will help prevent parsing errors.
+ 
  "Classic"
  ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -48,6 +50,8 @@ When the SYSTEM keyword does not work, you can replace it with the PUBLIC keywor
 ]>
 <example>&test;</example>
 ```
+
+Other file protocols work beyond `file://`. `http://` can be used to do [[ssrf]], proxy requests, or scan the internal network. `php://` can be used to take advantage of PHP wrappers on servers running [[php]].
 
 #### Blind
 ```

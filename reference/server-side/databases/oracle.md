@@ -16,3 +16,6 @@ So the injected queries on Oracle would need to look like: `' UNION SELECT NULL 
 ### Concatenate
 `||`, e.g.
 `' UNION SELECT username || '~' || password FROM users--`
+
+### No stacked/batched queries
+`UNION` must be used instead.

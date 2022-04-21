@@ -9,6 +9,10 @@ Title:
 Link:
 About:
 
+Title: Turning bad SSRF to good SSRF: Websphere Portal
+Link: https://blog.assetnote.io/2021/12/26/chained-ssrf-websphere/
+About: Case study about turning Open Redirect vulnerabilities into SSRF. References the well-known 2021 Grafana exploit. Also goes into detail about decompiling JAR files to find vulnerabilities in applications.
+
 ## Notes
 - Anytime you can modify a URL that is sent to the server
 
